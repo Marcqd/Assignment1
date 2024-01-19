@@ -1,0 +1,35 @@
+body{
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: navy;
+  background-color:silver;
+  }
+main{
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 0 0 10px rgba(0,0,0,0.1);
+}
+header{
+  text-align: center;
+  margin-bottom: 20px;
+}
+form{
+  display: flex;
+  flex-direction:column;
+}
+label{
+  margin-bottom: 5px;
+}
+button{
+  padding: 10px;
+  background-color: navy;
+  color: #ffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #0056b3;
+}
